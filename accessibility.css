@@ -60,8 +60,18 @@ button, .button, .filter-buttons button, .showcase-switch button { min-height: 4
 }
 .breadcrumb span { align-self: center; }
 #main-nav { font-size: 14px !important; }
-#main-nav a { min-height: 44px; display: inline-flex; align-items: center; font-size: 14px !important; color: #062c59; font-weight: 600; }
-#main-nav a:hover { color: #0079cf; }
+#main-nav a:not(.button) { min-height: 44px; display: inline-flex; align-items: center; font-size: 14px !important; color: #062c59; font-weight: 600; }
+#main-nav a:not(.button):hover { color: #0079cf; }
+#main-nav a.button,
+.button.dark,
+.button.primary {
+  color: #ffffff !important;
+}
+#main-nav a.button:hover,
+.button.dark:hover,
+.button.primary:hover {
+  color: #ffffff !important;
+}
 .motion-toggle { min-width: 44px; min-height: 44px; }
 .contact-details > a { overflow-wrap: anywhere; }
 #message-preview { scroll-margin-top: 120px; }
@@ -258,7 +268,8 @@ footer {
 @media (max-width: 1000px) {
   #main-nav { top: 100%; max-height: calc(100dvh - 150px); overflow-y: auto; }
   #main-nav.is-open { gap: 6px; }
-  #main-nav a { padding: 10px 12px; font-size: 16px !important; }
+  #main-nav a:not(.button) { padding: 10px 12px; font-size: 16px !important; color: #062c59; }
+  #main-nav a.button { color: #ffffff !important; }
   .breadcrumb { max-height: none; overflow: visible; padding: 16px 0; }
 }
 @media (max-width: 700px) {
