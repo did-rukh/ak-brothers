@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /review-notes.html
+Disallow: /responsive-review.html
+
+Sitemap: https://www.akholdings.in/sitemap.xml

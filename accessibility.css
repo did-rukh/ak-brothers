@@ -1,0 +1,355 @@
+/* Shared usability improvements, loaded after the original theme. */
+:root {
+  color-scheme: light;
+  --muted: #243f5a; /* High contrast readable slate for all light-background body text */
+}
+body {
+  overflow-wrap: break-word;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #062c59;
+}
+p {
+  color: #243f5a !important; /* Fix washed-out paragraphs across the site */
+  font-size: 15px;
+  line-height: 1.75;
+}
+main, section, article, aside, .form-grid > *, .footer-grid > * { min-width: 0; }
+input, select, textarea { max-width: 100%; font-size: 15px; color: #062c59; }
+textarea { resize: vertical; }
+button, .button, .filter-buttons button, .showcase-switch button { min-height: 46px; }
+
+/* Legible font sizes for cards, descriptions and small notes */
+.small, .product-info > p:last-child, .path-card p, .branch-card p, .advice-cards p {
+  font-size: 14px !important;
+  line-height: 1.7 !important;
+  color: #243f5a !important;
+}
+.eyebrow {
+  font-size: 12px !important;
+  letter-spacing: .12em !important;
+  font-weight: 750 !important;
+  color: #075ea6 !important;
+}
+.product-number {
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  color: #075ea6 !important;
+}
+.result-count { margin: 18px 0 24px; font-size: 15px; color: #1a3c58; font-weight: 600; }
+.breadcrumb {
+  display: flex;
+  position: static;
+  gap: 10px;
+  flex-wrap: wrap;
+  background: transparent;
+  box-shadow: none;
+  border: 0;
+  border-radius: 0;
+  font-size: 13px !important;
+  color: #385b79 !important;
+}
+.breadcrumb a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: #075ea6 !important;
+  font-weight: 600;
+}
+.breadcrumb span { align-self: center; }
+#main-nav { font-size: 14px !important; }
+#main-nav a { min-height: 44px; display: inline-flex; align-items: center; font-size: 14px !important; color: #062c59; font-weight: 600; }
+#main-nav a:hover { color: #0079cf; }
+.motion-toggle { min-width: 44px; min-height: 44px; }
+.contact-details > a { overflow-wrap: anywhere; }
+#message-preview { scroll-margin-top: 120px; }
+:focus-visible { outline: 3px solid #064b83 !important; outline-offset: 4px; }
+
+/* Top utility bar readability */
+.utility {
+  font-size: 12px !important;
+  padding: 10px 0 !important;
+}
+.utility .wrap > span {
+  font-size: 12px !important;
+  letter-spacing: .12em !important;
+  color: #e2f4ff !important;
+  font-weight: 600;
+}
+.utility a {
+  font-size: 13px !important;
+  color: #ffffff !important;
+}
+.utility a b {
+  color: #74eaff !important;
+}
+
+/* Hero Section text visibility & high contrast */
+.flow-copy .eyebrow {
+  color: #8fe8ff !important;
+  font-size: 12px !important;
+}
+.flow-copy .hero-description {
+  font-size: 16px !important;
+  line-height: 1.85 !important;
+  color: #eaf5ff !important;
+}
+.hero-assurance {
+  font-size: 13px !important;
+  color: #e5f4ff !important;
+}
+.hero-assurance i {
+  color: #6cf0ff !important;
+  font-weight: bold;
+}
+.hero-scroll {
+  font-size: 13px !important;
+  color: #d6eeff !important;
+}
+
+/* Borewell Dark Blue Section text visibility */
+.blue-service-copy .eyebrow {
+  color: #7ce7ff !important;
+  font-size: 12px !important;
+}
+.blue-service-copy > p:not(.eyebrow) {
+  font-size: 15px !important;
+  line-height: 1.85 !important;
+  color: #edf6ff !important;
+}
+.service-flow span {
+  font-size: 13px !important;
+  color: #d8edfc !important;
+}
+.service-flow b {
+  font-size: 14px !important;
+  color: #72e9ff !important;
+}
+.blueprint-title {
+  font-size: 11px !important;
+  color: #c9ebff !important;
+}
+.flow-blueprint text {
+  font-size: 11px !important;
+  fill: #c6e9ff !important;
+}
+.art-note {
+  font-size: 12px !important;
+  color: #043557 !important;
+  font-weight: 600;
+}
+
+/* Statement Word fix - make readable and not invisible */
+.flow-statement .eyebrow {
+  font-size: 12px !important;
+  color: #075fa5 !important;
+}
+.flow-statement p {
+  font-size: 16px !important;
+  color: #243f5a !important;
+}
+.statement-word {
+  color: #0079cf14 !important;
+  -webkit-text-stroke: 1.5px #74b8e8 !important;
+}
+
+/* FAQ readability */
+.faq-section .eyebrow {
+  font-size: 12px !important;
+  color: #075fa5 !important;
+}
+.faq-list summary {
+  font-size: 16px !important;
+  font-weight: 650 !important;
+  color: #062c59 !important;
+}
+.faq-list p {
+  font-size: 15px !important;
+  line-height: 1.75 !important;
+  color: #243f5a !important;
+}
+
+/* Form readability */
+.contact-layout form h2 {
+  font-size: 26px !important;
+  color: #062c59 !important;
+}
+.form-grid label {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  color: #062c59 !important;
+}
+.form-grid label > span {
+  font-size: 12px !important;
+  color: #385b79 !important;
+}
+.contact-details h2 {
+  color: #062c59 !important;
+}
+.contact-details p {
+  font-size: 15px !important;
+  color: #243f5a !important;
+}
+.contact-details .big-phone {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  color: #0072c4 !important;
+}
+.contact-details .small {
+  font-size: 13px !important;
+  color: #385b79 !important;
+}
+
+/* ========================================================
+   FOOTER TEXT VISIBILITY (Comprehensive high-contrast boost)
+   ======================================================== */
+footer {
+  background: #041b3a !important; /* Slightly deeper rich navy for high contrast */
+  color: #e5f2fc !important;
+  padding-top: 55px !important;
+}
+.footer-brand span {
+  font-size: 12px !important;
+  letter-spacing: .15em !important;
+  color: #a5d3f8 !important;
+  font-weight: 600 !important;
+}
+.footer-grid p {
+  font-size: 14px !important;
+  line-height: 1.8 !important;
+  color: #cbe4f8 !important;
+}
+.footer-grid > div > b {
+  font-size: 15px !important;
+  font-weight: 750 !important;
+  color: #64d7ff !important; /* Crisp luminous cyan */
+  letter-spacing: .04em !important;
+  margin-bottom: 16px !important;
+}
+.footer-grid > div > a:not(.footer-brand),
+.footer-grid > div > span {
+  font-size: 14px !important;
+  line-height: 1.7 !important;
+  color: #e2f1fc !important; /* Crisp high-contrast readable white-blue */
+  margin-top: 10px !important;
+}
+.footer-grid > div > a:not(.footer-brand):hover {
+  color: #64d7ff !important;
+  text-decoration: underline !important;
+  text-underline-offset: 4px !important;
+}
+.footer-bottom {
+  font-size: 13px !important;
+  color: #b3d7f4 !important;
+  border-top: 1px solid #143e68 !important;
+  padding-block: 22px !important;
+}
+.footer-bottom a {
+  color: #e2f1fc !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px !important;
+}
+.footer-bottom a:hover {
+  color: #64d7ff !important;
+}
+
+@media (max-width: 1000px) {
+  #main-nav { top: 100%; max-height: calc(100dvh - 150px); overflow-y: auto; }
+  #main-nav.is-open { gap: 6px; }
+  #main-nav a { padding: 10px 12px; font-size: 16px !important; }
+  .breadcrumb { max-height: none; overflow: visible; padding: 16px 0; }
+}
+@media (max-width: 700px) {
+  html { scroll-padding-top: 100px; }
+  .wrap { width: calc(100% - 32px); }
+  .header-inner { gap: 8px; }
+  .identity { min-width: 0; flex: 1; }
+  .identity .logo { width: min(208px, 100%); height: auto; }
+  .menu-toggle { min-height: 44px; font-size: 14px; padding: 10px; flex-shrink: 0; }
+  .motion-toggle { flex-shrink: 0; }
+  .flow-copy h1 { font-size: clamp(36px, 9vw, 58px); }
+  .page-intro h1, .detail-hero h1, .prose h1 { font-size: clamp(32px, 8.5vw, 44px); }
+  .hero-description, .flow-copy .hero-description, .page-intro > p:not(.eyebrow), .blue-service-copy > p:not(.eyebrow), .flow-statement p, .faq-list p, .steps-grid p { font-size: 15px !important; line-height: 1.7; }
+  .button, .hero-grid .button, .filter-buttons button, .search-label input { font-size: 14px !important; }
+  .path-card p, .product-info > p:last-child, .small, .brand-section .small, .hero-assurance, .service-flow span { font-size: 14px !important; }
+  .eyebrow, .flow-copy .eyebrow, .product-info .eyebrow, .section-heading .eyebrow, .branch-card .eyebrow { font-size: 12px !important; letter-spacing: .08em; }
+  .faq-list summary { font-size: 16px; min-height: 48px; }
+  .showcase-switch { gap: 8px; flex-wrap: wrap; }
+  .showcase-switch button, .showcase-switch button span { font-size: 12px; }
+  .contact-layout { grid-template-columns: minmax(0, 1fr); }
+  .mobile-contact { padding-bottom: env(safe-area-inset-bottom); }
+  .mobile-contact a { min-height: 52px; display: flex; align-items: center; justify-content: center; font-size: 14px; }
+  .footer-bottom { padding-bottom: calc(95px + env(safe-area-inset-bottom)); }
+  .footer-grid a { min-height: 44px; display: flex; align-items: center; overflow-wrap: anywhere; }
+}
+@media (max-width: 480px) {
+  .path-grid, .product-grid, .home-products, .branch-grid { grid-template-columns: minmax(0, 1fr); }
+  .path-card h3, .product-info h3 { font-size: 22px; }
+  .path-card p, .product-info > p:last-child { font-size: 14px !important; }
+  .product-visual, .catalog-grid .product-visual { height: 245px; }
+  .orbit, .orbit-two { max-width: 100%; }
+  .flow-showcase { max-width: 100%; }
+  .actions .button { flex: 1 1 100%; }
+  .service-flow { flex-wrap: wrap; gap: 12px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* A compact, persistent contact card with comfortable touch targets. */
+body { padding-bottom: 0; }
+footer { padding-bottom: 116px; }
+html { scroll-padding-bottom: 126px; }
+.mobile-contact.contact-dock {
+  display: block;
+  position: fixed;
+  inset: auto 24px 24px auto;
+  z-index: 40;
+  width: 280px;
+  max-width: calc(100% - 32px);
+  padding: 8px;
+  border: 1px solid #dbe6ed;
+  border-radius: 16px;
+  background: #fffffff5;
+  box-shadow: 0 8px 32px #103c5526, 0 2px 6px #103c550a;
+  backdrop-filter: blur(16px);
+}
+.contact-dock-prompt { margin: 0 0 6px; text-align: center; font-size: 12px; line-height: 1.5; color: #1e3c54; }
+.contact-dock-prompt strong { color: #062c59; font-weight: 700; }
+.contact-dock-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.contact-dock .contact-dock-actions a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 42px;
+  padding: 8px 6px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font-size: 13px;
+  line-height: 1.3;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color .18s ease, box-shadow .18s ease;
+}
+.contact-dock .contact-dock-actions .quick-call { color: #075c98; background: #edf6ff; border-color: #d4e7f8; }
+.contact-dock .contact-dock-actions .quick-whatsapp { color: #fff; background: #087c46; border-color: #087c46; }
+.contact-dock .quick-call:hover { background: #deeeff; }
+.contact-dock .quick-whatsapp:hover { background: #066638; }
+.contact-dock a:active { box-shadow: inset 0 2px 5px #002a4126; }
+.contact-dock svg { width: 16px; height: 16px; flex: 0 0 16px; }
+@media (max-width: 700px) {
+  footer { padding-bottom: calc(108px + env(safe-area-inset-bottom)); }
+  .mobile-contact.contact-dock { width: 280px; max-width: calc(100% - 24px); inset: auto 12px calc(12px + env(safe-area-inset-bottom)) auto; padding: 8px; border-radius: 16px; }
+  .contact-dock-prompt { font-size: 12px; margin-bottom: 6px; }
+  .footer-bottom { padding-bottom: 24px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contact-dock .contact-dock-actions a { transition: none; }
+}
+
+/* Site design credit. */
+.footer-bottom .footer-credit { margin-left: auto; width: auto; }
+@media (max-width: 700px) {
+  .footer-bottom .footer-credit { width: 100%; margin-left: 0; }
+}

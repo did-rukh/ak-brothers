@@ -1,0 +1,140 @@
+[
+  {
+    "route": "/",
+    "title": "Water Pumps & Motors in Kannur | A K Brothers",
+    "description": "Explore water pumps, electric motors and borewell services from A K Brothers in North Kerala. Get pump selection advice or find your nearest branch.",
+    "file": "index.html"
+  },
+  {
+    "route": "/products/",
+    "title": "Water Pumps, Electric Motors & Accessories | A K Brothers",
+    "description": "Browse monoblock, openwell and borewell pumps, industrial motors, generators, pipes and spares. Discuss your requirement with A K Brothers in North Kerala.",
+    "file": "products/index.html"
+  },
+  {
+    "route": "/products/monoblock-pumps/",
+    "title": "Monoblock pumps in North Kerala | A K Brothers",
+    "description": "Explore monoblock pumps at A K Brothers in North Kerala. Share your application for guidance on suitable options, availability and a quotation.",
+    "file": "products/monoblock-pumps/index.html"
+  },
+  {
+    "route": "/products/openwell-pumps/",
+    "title": "Openwell pumps in North Kerala | A K Brothers",
+    "description": "Explore openwell pumps at A K Brothers in North Kerala. Share your application for guidance on suitable options, availability and a quotation.",
+    "file": "products/openwell-pumps/index.html"
+  },
+  {
+    "route": "/products/borewell-pumps/",
+    "title": "Borewell pumps in North Kerala | A K Brothers",
+    "description": "Explore borewell pumps at A K Brothers in North Kerala. Share your application for guidance on suitable options, availability and a quotation.",
+    "file": "products/borewell-pumps/index.html"
+  },
+  {
+    "route": "/products/industrial-motors/",
+    "title": "Electric & industrial motors in North Kerala | A K Brothers",
+    "description": "Explore electric & industrial motors at A K Brothers in North Kerala. Share your application for guidance on suitable options, availability and a quotation.",
+    "file": "products/industrial-motors/index.html"
+  },
+  {
+    "route": "/products/portable-pumpsets/",
+    "title": "Portable pumpsets in North Kerala | A K Brothers",
+    "description": "Explore portable pumpsets at A K Brothers in North Kerala. Share your application for guidance on suitable options, availability and a quotation.",
+    "file": "products/portable-pumpsets/index.html"
+  },
+  {
+    "route": "/products/generators/",
+    "title": "Generators & diesel engines in North Kerala | A K Brothers",
+    "description": "Explore generators & diesel engines at A K Brothers in North Kerala. Share your application for guidance on suitable options, availability and a quotation.",
+    "file": "products/generators/index.html"
+  },
+  {
+    "route": "/products/pipes-fittings/",
+    "title": "Pipes, cables & fittings in North Kerala | A K Brothers",
+    "description": "Explore pipes, cables & fittings at A K Brothers in North Kerala. Share your application for guidance on suitable options, availability and a quotation.",
+    "file": "products/pipes-fittings/index.html"
+  },
+  {
+    "route": "/products/spares-accessories/",
+    "title": "Spares & accessories in North Kerala | A K Brothers",
+    "description": "Explore spares & accessories at A K Brothers in North Kerala. Share your application for guidance on suitable options, availability and a quotation.",
+    "file": "products/spares-accessories/index.html"
+  },
+  {
+    "route": "/products/water-filters/",
+    "title": "Water filters in North Kerala | A K Brothers",
+    "description": "Explore water filters at A K Brothers in North Kerala. Share your application for guidance on suitable options, availability and a quotation.",
+    "file": "products/water-filters/index.html"
+  },
+  {
+    "route": "/borewell-services/",
+    "title": "Borewell Drilling & Pump Installation | A K Brothers Kannur",
+    "description": "Discuss borewell drilling, testing, pump selection, installation and commissioning with A K Brothers. Enquire about service availability for your North Kerala site.",
+    "file": "borewell-services/index.html"
+  },
+  {
+    "route": "/branches/",
+    "title": "Pump & Motor Branches in North Kerala | A K Brothers",
+    "description": "Find A K Brothers and associated pump businesses in Kannur, Iritty, Kasaragod, Kanhangad and Uppala. Contact the central team before your visit.",
+    "file": "branches/index.html"
+  },
+  {
+    "route": "/branches/kannur/",
+    "title": "A K Brothers Kannur | Pumps & Motors",
+    "description": "A K Brothers in Kannur, North Kerala. View the listed location and contact the A K Brothers central team for branch details and product enquiries.",
+    "file": "branches/kannur/index.html"
+  },
+  {
+    "route": "/branches/iritty/",
+    "title": "A K Brothers Iritty | Pumps & Motors",
+    "description": "A K Brothers in Iritty, North Kerala. View the listed location and contact the A K Brothers central team for branch details and product enquiries.",
+    "file": "branches/iritty/index.html"
+  },
+  {
+    "route": "/branches/kasaragod/",
+    "title": "A K Enterprises Kasaragod | Pumps & Motors",
+    "description": "A K Enterprises in Kasaragod, North Kerala. View the listed location and contact the A K Brothers central team for branch details and product enquiries.",
+    "file": "branches/kasaragod/index.html"
+  },
+  {
+    "route": "/branches/kanhangad/",
+    "title": "A K Brothers Kanhangad | Pumps & Motors",
+    "description": "A K Brothers in Kanhangad, North Kerala. View the listed location and contact the A K Brothers central team for branch details and product enquiries.",
+    "file": "branches/kanhangad/index.html"
+  },
+  {
+    "route": "/branches/uppala/",
+    "title": "A K Brothers Uppala | Pumps & Motors",
+    "description": "A K Brothers in Uppala, North Kerala. View the listed location and contact the A K Brothers central team for branch details and product enquiries.",
+    "file": "branches/uppala/index.html"
+  },
+  {
+    "route": "/branches/kasaragod-marketing/",
+    "title": "A K Brothers Marketing Kasaragod | Pumps & Motors",
+    "description": "A K Brothers Marketing in Kasaragod, North Kerala. View the listed location and contact the A K Brothers central team for branch details and product enquiries.",
+    "file": "branches/kasaragod-marketing/index.html"
+  },
+  {
+    "route": "/about/",
+    "title": "About A K Brothers & AK Holdings | North Kerala",
+    "description": "Learn about A K Brothers, the pumps and motors business of AK Holdings, serving customers across North Kerala with equipment, accessories and borewell services.",
+    "file": "about/index.html"
+  },
+  {
+    "route": "/contact/",
+    "title": "Contact A K Brothers Kannur | Pump & Motor Advice",
+    "description": "Call +91 90726 33733 or prepare a WhatsApp enquiry for A K Brothers. Share your pump, motor or borewell requirement and location in North Kerala.",
+    "file": "contact/index.html"
+  },
+  {
+    "route": "/privacy/",
+    "title": "Website Privacy Information | A K Brothers",
+    "description": "How the A K Brothers redesign preview handles enquiry details and external contact links.",
+    "file": "privacy/index.html"
+  },
+  {
+    "route": "/purchase-information/",
+    "title": "Purchases & Quotations | A K Brothers",
+    "description": "Contact A K Brothers to confirm product availability, quotations, collection, service scope and manufacturer warranty before purchase.",
+    "file": "purchase-information/index.html"
+  }
+]
