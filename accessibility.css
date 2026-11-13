@@ -212,6 +212,11 @@ button, .button, .filter-buttons button, .showcase-switch button { min-height: 4
   color: #385b79 !important;
 }
 
+/* Final CTA Eyebrow: pure white */
+.final-cta .eyebrow {
+  color: #ffffff !important;
+}
+
 /* ========================================================
    FOOTER TEXT VISIBILITY (Comprehensive high-contrast boost)
    ======================================================== */
